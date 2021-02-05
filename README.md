@@ -13,7 +13,7 @@ Dependency inversion
 Mocks
 Spies
 
- <hr>
+ 
 
 Learning objectives
 To be able to answer "yes" to the following questions:
