@@ -1,18 +1,23 @@
-
 class Ship {
-    constructor(startingPort){
-        this.startingPort = startingPort
+    constructor(port){
+        this.startingPort = port;
+        this.currentPort = port;
        
     }; 
 
 setSail() { 
-this.startingPort = 0;
+this.currentPort = 0;
 
 };
+
+dock(port) {
+    this.currentPort = port;
+}
 
 };
 
 
 module.exports = Ship;
+
 
 
